@@ -1,0 +1,10 @@
+schemaVersion: "1.2"
+endpoints:
+    - name: omni-ai-assistant
+      displayName: Omni AI Assistant
+      service:
+        basePath: /
+        port: 8501
+      type: REST
+      networkVisibilities:
+        - Public
